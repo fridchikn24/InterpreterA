@@ -1,0 +1,3 @@
+C:/Users/Sameeullah/Documents/312_stuffs/projects/InterpreterA/cmake-build-debug/CMakeFiles/InterpreterA.dir
+C:/Users/Sameeullah/Documents/312_stuffs/projects/InterpreterA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Sameeullah/Documents/312_stuffs/projects/InterpreterA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
