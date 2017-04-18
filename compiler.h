@@ -9,6 +9,10 @@ struct node{
     TokenType Black;
     String ComType;
     Stmnt state;
+    Expression* expression;
+    String Parameters;
+    String text;
+    String var_name;
 
     Node() {
         tokenType = INVALID;
@@ -19,5 +23,10 @@ struct node{
         expressions = 0;
         data = 0;
     }
+
+    ~Node(){
+        delete this->expression;
+    }
+
 
 };

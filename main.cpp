@@ -5,6 +5,10 @@
 #include "Input.cpp"
 #include <iostream>
 
-void main(){
-
+int main(void){
+    set_input("test_grader.blip");
+    run();
 }
+
+
+//peanut butter jelly time bitches;
