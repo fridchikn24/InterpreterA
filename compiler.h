@@ -6,27 +6,24 @@
 
 
 struct node{
-    TokenType Black;
-    String ComType;
-    Stmnt state;
-    Expression* expression;
-    String Parameters;
-    String text;
-    String var_name;
 
     Node() {
-        tokenType = INVALID;
-        cmdType = String(" ");
-        text = String(" ");
-        var = String(" ");
-        stmntType = NOST;
-        expressions = 0;
-        data = 0;
+        String type;
+        String value;
+        int dat;
+        Node* left;
+        Node* right;
+        Node* parent;
+
+        Node(String value) {
+            this->value = value;
+            left = right = parent = nullptr;
+        }
     }
 
     ~Node(){
-        delete this->expression;
+        delete left;
+        delete right;
     }
-
 
 };
