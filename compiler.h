@@ -15,10 +15,10 @@ struct node{
         Node* right;
         Node* parent;
 
-        Node(String value) {
+       /* Node(String value) {
             this->value = value;
             left = right = parent = nullptr;
-        }
+        }*/
     }
 
     ~Node(){
