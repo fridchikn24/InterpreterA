@@ -10,7 +10,11 @@
 #include "Input.cpp"
 #include <iostream>
 
-void tree::output_func(){}
+void tree::output_func(){
+
+}
 void tree::var_stor(){}
+
+void tree::set(){}
 
 
